@@ -32,7 +32,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body id="head">
 
  
 
@@ -41,7 +41,7 @@
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <h1 class="text-light"><a href="#">Tra<span>vel</span></a></h1>
+        <h1 class="text-light"><a data-scroll href="#header">Tra<span>vel</span></a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -53,7 +53,7 @@
           <li><a data-scroll href="#about">About</a></li>
 
           <li><a data-scroll href="#services">Services</a></li>
-          <li><a data-scroll href="#">Portfolio</a></li>
+          <li><a data-scroll href="#portfolio">Gallery</a></li>
           <li><a data-scroll href="#">Pricing</a></li>
           <li><a data-scroll href="#">Contact</a></li>
 
@@ -77,9 +77,9 @@
           <div class="carousel-item active" style="background: url(assets/img/slide/1.jpg); background-size: cover;">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated animate__fadeInDown">Inventore <span>Optio saepe.</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Inventore <span>Optio Laqueta</span></h2>
                 <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                <a data-scroll href="#about" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
+                <a data-scroll href="#featured" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
               </div>
             </div>
           </div>
@@ -89,7 +89,7 @@
           <div class="carousel-item" style="background: url(assets/img/slide/2.jpg); background-size: cover;">
             <div class="carousel-container">
               <div class="carousel-content">
-                <h2 class="animate__animated fanimate__adeInDown">Lorem <span>Ipsum Dolor</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Lorem <span>Ipsum Dolor</span></h2>
                 <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
                 <a data-scroll href="#featured" class="btn-get-started animate__animated animate__fadeInUp">Read More</a>
               </div>
@@ -160,7 +160,7 @@
     <section id="about" class="about">
       <div class="container">
         
-      <div class="section-title" data-aos="fade-up">
+        <div class="section-title" data-aos="fade-up">
             <h2>About Us</h2>
         </div>
         
@@ -201,7 +201,7 @@
         </div>
 
         <div class="row">
-          <div class="col-6 col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bxl-dribbble"></i></div>
               <h4>Lorem Ipsum</h4>
@@ -209,7 +209,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4>Sed Spiciatis</h4>
@@ -217,7 +217,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-tachometer"></i></div>
               <h4>Magni Dolores</h4>
@@ -225,7 +225,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-world"></i></div>
               <h4>Nemo Enim</h4>
@@ -233,7 +233,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-slideshow"></i></div>
               <h4>Dele cardo</h4>
@@ -241,7 +241,7 @@
             </div>
           </div>
 
-          <div class="col-6 col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box">
               <div class="icon"><i class="bx bx-arch"></i></div>
               <h4>Divera don</h4>
@@ -254,12 +254,143 @@
       </div>
     </section><!-- End Services Section -->
 
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Gallery</h2>
+            </div>
+  
+          <div class="row portfolio-container">
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Persawahan</h4>
+                  <p>Bali</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Pantai</h4>
+                  <p>Bali</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                  <h4>Perkotaan</h4>
+                  <p>London</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Persawahan</h4>
+                    <p>Bali</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/1.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Pantai</h4>
+                    <p>Bali</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Perkotaan</h4>
+                    <p>London</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/3.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Persawahan</h4>
+                    <p>Bali</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/1.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Pantai</h4>
+                    <p>Bali</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/2.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+              <div class="portfolio-wrap">
+                <img src="assets/img/portfolio/3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-info">
+                    <h4>Perkotaan</h4>
+                    <p>London</p>
+                  <div class="portfolio-links">
+                    <a href="assets/img/portfolio/3.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="icofont-eye-alt"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+  
+        </div>
+      </section><!-- End Portfolio Section -->
+
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
       <div class="container">
 
         <div class="section-title">
-          <h2>Our Clients</h2>
+          <h2>Our Partners</h2>
           <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
         </div>
 

@@ -799,7 +799,7 @@ section {
 }
 
 .clients .owl-dot.active {
-  background-color: #e96b56 !important;
+  background-color: #00A6D6 !important;
 }
 
 /*--------------------------------------------------------------
@@ -1000,7 +1000,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  background: #e96b56;
+  background: #00A6D6;
   color: #fff;
 }
 
@@ -1101,7 +1101,7 @@ section {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #e96b56;
+  color: #00A6D6;
 }
 
 .portfolio .portfolio-wrap:hover::before {

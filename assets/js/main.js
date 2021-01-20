@@ -95,11 +95,11 @@
   });
 
   // Real view height for mobile devices
-  if (window.matchMedia("(max-width: 767px)").matches) {
-    $('#hero').css({
-      height: auto
-    });
-  }
+  // if (window.matchMedia("(max-width: 767px)").matches) {
+  //   $('#hero').css({
+  //     height: auto
+  //   });
+  // }
 
   // Intro carousel
   var heroCarousel = $("#heroCarousel");
