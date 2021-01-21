@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Eterna Bootstrap Template - Index</title>
+  <title>Design 1</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -54,8 +54,7 @@
 
           <li><a data-scroll href="#services">Services</a></li>
           <li><a data-scroll href="#portfolio">Gallery</a></li>
-          <li><a data-scroll href="#">Pricing</a></li>
-          <li><a data-scroll href="#">Contact</a></li>
+          <li><a data-scroll href="#contact">Contact</a></li>
 
         </ul>
       </nav><!-- .nav-menu -->
@@ -125,37 +124,6 @@
 
   <main id="main">
 
-    <!-- ======= Featured Section ======= -->
-    <section id="featured" class="featured">
-      <div class="container">
-
-        <div class="row">
-          <div class="col-lg-4">
-            <div class="icon-box">
-              <i class="icofont-check-circled text-center"></i>
-              <h3 class="text-center">Lorem Ipsum</h3>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <i class="icofont-check-circled text-center"></i>
-              <h3 class="text-center">Dolor Sitema</h3>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
-          <div class="col-lg-4 mt-4 mt-lg-0">
-            <div class="icon-box">
-              <i class="icofont-check-circled text-center"></i>
-              <h3 class="text-center">Sed ut perspiciatis</h3>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Featured Section -->
-
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
@@ -166,7 +134,7 @@
         
         <div class="row">
          
-          <div class="col-lg-6 pt-4 pt-lg-0 content">
+          <div class="col-lg-6 pt-4 pt-lg-0 content" id="aboutDesc">
             <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
               magna aliqua.
@@ -254,10 +222,49 @@
       </div>
     </section><!-- End Services Section -->
 
+     <!-- ======= Featured Section ======= -->
+     <section id="featured" class="featured">
+      <div class="container">
+       
+        <div class="section-title" data-aos="fade-up">
+          <h2>Why Choose Us</h2>
+        </div>     
+            
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="icon-box">
+                  <i class="icofont-check-circled text-center"></i>
+                  <h3 class="text-center">Lorem Ipsum</h3>
+                  <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+                </div>
+              </div>
+              <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="icon-box">
+                  <i class="icofont-ui-calendar text-center"></i>
+                  <h3 class="text-center">Dolor Sitema</h3>
+                  <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+                </div>
+              </div>
+              <div class="col-lg-4 mt-4 mt-lg-0">
+                <div class="icon-box">
+                  <i class="icofont-money text-center"></i>
+                  <h3 class="text-center">Sed ut perspiciatis</h3>
+                  <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                </div>
+              </div>
+           
+            </div>
+          </div>
+        </div>
+        
+
+      </div>
+    </section><!-- End Featured Section -->
+
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio">
         <div class="container">
-            <div class="section-title" data-aos="fade-up">
+            <div class="section-title mt-5" data-aos="fade-up">
                 <h2>Gallery</h2>
             </div>
   
@@ -383,7 +390,7 @@
           </div>
   
         </div>
-      </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio Section -->
 
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
@@ -408,61 +415,39 @@
       </div>
     </section><!-- End Clients Section -->
 
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact mt-5">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact Us</h2>
+          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur <br>ex aliquid fuga eum quidem. Sit sint consectetur velit. </p>
+        </div>
+
+        <div class="social-links mt-2">
+          <ul>
+            <li><a href="#"><i class="icofont-instagram"></i></a></li>
+            <li><a href="#"><i class="icofont-facebook"></i></a></li>
+            <li><a href="#"><i class="icofont-twitter"></i></a></li>
+            <li><a href="#"><i class="icofont-email"></i></a></li>
+            
+          </ul>
+        </div>
+
+        <div class="btnContact">
+          <a href="" class="btn btn-primary ">Contact us</a>
+        </div>
+
+      </div>
+    </section><!-- End Clients Section -->
+
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-
-    
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          
-
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h4>Contact Us</h4>
-            <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
-            </p>
-
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-info">
-            <h3>About Eterna</h3>
-            <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
-            <div class="social-links mt-3">
-              <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-              <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-              <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Travel</span></strong>. All Rights Reserved
+        &copy; Copyright <?= date('Y'); ?> <strong><span>Travel</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer><!-- End Footer -->

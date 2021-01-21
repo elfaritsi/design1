@@ -186,3 +186,8 @@
 // var scroll = new SmoothScroll('#about', {
 //   header: '[data-scroll-header]'
 // });
+
+let aboutDesc = document.getElementById('aboutDesc');
+if(window.screen.width < 992){
+  aboutDesc.classList.add('order-last');
+}
